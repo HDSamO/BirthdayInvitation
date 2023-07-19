@@ -104,10 +104,6 @@ b {
 }
 
 .letter .content {
-    /* text-align: center; */
-    /* font-size: 3vh; */
-    /* margin-top: 3vh; */
-    /* color: black; */
     font-family:cursive;
 }
 
@@ -125,11 +121,6 @@ b {
     z-index: 4;
 }
 
-/* .lid:hover {
-    box-shadow: 5px 0px 5px 5px rgba(252, 252, 252, 0.3);
-    cursor: pointer;
-
-} */
 
 .shadow {
     position: absolute;
@@ -156,17 +147,16 @@ b {
     border-bottom: 9vw solid transparent;  
     border-left: 14vw solid transparent;  
     z-index: 5;  
-    /* display: none; */
+
 }
 
-/* decoration */
+
 .plane {
     z-index: 1;
     width: 40vw;
     height: 100vh;
     position: absolute;
     left: 4vw;
-    /* background-color: aliceblue; */
 }
 
 .balloon {
@@ -175,8 +165,6 @@ b {
     background-color: #314f9b;
     position: absolute;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    /* top: -200px; */
-
 }
 
 .balloon:hover {
@@ -219,42 +207,3 @@ b {
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.f {
-    left: 42%;
-}
-
-.g {
-    left: 38%;
-}
-
-.h {
-    left: 66%;
-}
-
-.i {
-    left: 4%;
-}
-
-.j {
-    left: 55%;
-}
-
-.k {
-    left: 8%;
-}
-
-.l {
-    left: 25%;
-}
-
-.m {
-    left: 76%;
-}
-
-.n {
-    left: 38%;
-}
-
-.o {
-    left: 7%;
-}
