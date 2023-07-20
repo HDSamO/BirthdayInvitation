@@ -28,10 +28,10 @@ $(document).ready(function(){
 
         tl.to(".back, .shadow, .envelope, .lid, .button", {duration:0.1, y: 0, x: -1000, delay:-0.1})
         
-        tl.to(".back, .shadow, .envelope, .lid, .button", {duration:0.4, x: -500, opacity: 1, delay:0.4})
+        tl.to(".back, .shadow, .envelope, .lid, .button", {duration:0.4, x: -500, y: "-5%" , opacity: 1, delay:0.4})
         tl.to(".button", {duration:0.4, x: -450, y: 36  , opacity: 1, delay:-0.4})
 
-        tl.to(".letter", {duration: 0.4, x: 260, y: -10, width: "40vw", height: "32vw", delay: -0.4});
+        tl.to(".letter", {duration: 0.4, x: "50%", y: "-2%", width: "40vw", height: "32vw", delay: -0.4});
         tl.from(".content", {duration: 0.5, opacity:0})
         tl.to(".back, .shadow, .envelope, .lid, .button", {duration: 0.7,x: -1100, opacity:0, delay:0.1})
 
