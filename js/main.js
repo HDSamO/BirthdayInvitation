@@ -41,6 +41,7 @@ $(document).ready(function(){
         tl2.to(".b", {duration: 1, y: 400, ease: "bounce", delay:0.5 });
         tl2.to(".a", {duration: 1, y: 250, ease: "back", delay: -0.8});
         tl2.to(".c", {duration: 1, y: 150, ease: "back", delay: -1.1});
+        tl2.from(".later", {duration:0.5, opacity: 0, delay:0.3});
 
         // tl2.addLable("floating", "+=1");
         // tl2.to()
@@ -54,7 +55,7 @@ $(document).ready(function(){
         tl3.to(".a", {  
           x: function(){ return getRand(-50,50) },
           y: function(){ return getRand(200,300) },
-          rotation: function(){ return getRand(-5,5) },
+          rotation: function(){ return getRand(-20,20) },
           duration: function(){ return getRand(0.3, 0.8) },
           transformOrigin:'50% 50%',
           ease:"sine.inOut"
@@ -63,7 +64,7 @@ $(document).ready(function(){
 
         tl3.to(".b", {  
             x: function(){ return getRand(-100,100) },
-            y: function(){ return getRand(350,400) },
+            y: function(){ return getRand(350,450) },
             rotation: function(){ return getRand(-5,5) },
             duration: function(){ return getRand(0.5, 1.5) },
             transformOrigin:'50% 50%',
@@ -74,7 +75,7 @@ $(document).ready(function(){
           tl3.to(".c", {  
             x: function(){ return getRand(-100,100) },
             y: function(){ return getRand(100,200) },
-            rotation: function(){ return getRand(-5,5) },
+            rotation: function(){ return getRand(-10,10) },
             duration: function(){ return getRand(0.4, 1.1) },
             transformOrigin:'50% 50%',
             ease:"sine.inOut"
